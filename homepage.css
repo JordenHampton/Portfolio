@@ -1,0 +1,108 @@
+
+@font-face {
+    font-family: quicksand;
+    src: url(fonts/quicksand/Quicksand-Regular.otf);
+  }
+
+ @font-face {
+    font-family: quicksandB;
+    src: url(fonts/quicksand/Quicksand-Bold.otf);
+  }
+
+
+
+
+body {
+    font-size: 12px;
+    /* background-color: rgb(171, 192, 212); */
+    margin: 0;
+    font-family: quicksand;
+}
+
+/* Classes */
+
+.header {
+    background: url('img/forest.jpeg') no-repeat center;
+      background-size: cover;
+      width: 100%;
+      margin: auto;
+      z-index: 0;
+      padding-top: 100px;
+     
+  
+      padding-top: 170px;
+      height: 850px;
+    
+      background: rgb(171, 192, 212) url('img/forest.jpeg') no-repeat center;
+      background-size: cover;
+      filter: opacity(0.5);
+}
+
+.h1top {
+    text-align: center;
+    font-size: 10rem;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    font-family: quicksandB, Impact, Charcoal, sans-serif;
+    margin-top: -120px;
+}
+
+.h2top {
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    font-family: quicksandB, Impact, Charcoal, sans-serif;
+}
+
+.about{
+    margin-top: 5px;
+}
+
+.abouttext {
+    font-size: 1.7rem;
+    margin: auto;
+    width: 75%;
+}
+
+.line {
+    content:"";
+    position:absolute;
+    height:5px;
+    width: 100%;
+    margin-top:-5px;
+    margin-right: -300px;
+    background: black;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .test {
+    background: url('img/YoutubeRed.jpg') no-repeat center;
+    height: 600px;
+}
+
+.test:hover {
+    background: url('img/YoutubeBlack.jpg') no-repeat center;
+    height: 600px;
+} */
